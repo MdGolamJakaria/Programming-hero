@@ -1,4 +1,7 @@
 
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
@@ -70,9 +73,6 @@ header{
     position: fixed;
     height: auto;
     
-}
-main{
-    margin-top: ;
 }
 header h1{
     margin: 0;
@@ -168,21 +168,21 @@ section{
 footer{
     text-align: center;
 }
-.contact_form{
+.contacts{
     text-align: center;
+    height: 150px;
 }
-.contact_form li{ 
+.contacts h2{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.social_icons li{ 
     display: inline-block;
 }
-.contact_form li a i{
 
-    
-}
 .social_icons li a i{
     font-size: 70px;
-    padding: 0px 20px;
-    transition: 0.5s;
-}
-.fab:hover{
-    rotate: 360deg;
+    padding: 0px 50px;
+    color: orange
+   
 }
