@@ -1,7 +1,188 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    font-family: Arial, Helvetica, sans-serif;
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 50px;
+    text-transform: uppercase;
+}
+h3{
+    text-transform: capitalize;
+    font-size: 40px;
+}
+p{
+    text-align: justify;
+    margin-bottom: 40px;
+}
+strong{
+    font-size: 22px;
+    text-transform: capitalize;
+}
+img{
+    transition: 0.5s;
+}
+img:hover{
+    transform: scale(1.1);
+}
+#orange_text{
+    color: orange;
+}
+.half_width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding: 2%;
+
+}
+
+.button{
+    background-color: orange;
+    margin: 0px;
+    padding: 10px 20px;
     text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.button:hover{
+    background-color: darkorange;
+    margin: 0px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #00000061 ;
+}
+img{
+    width: 100%;
+}
+
+header{
+    background-color: orange;
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    height: auto;
     
+}
+main{
+    margin-top: ;
+}
+header h1{
+    margin: 0;
+}
+header h1 a {
+    margin-left: 7%;
+    float: left;
+    
+}
+.main_nav{
+    float: right;
+    padding-right: 5%;
+}
+header ul li{
+    display:inline-block;
+    margin: 0 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+header ul li:hover{
+    text-decoration: none;
+    background-color: darkorange;
+    font-weight: Bold;
+    text-transform: uppercase;
+    box-shadow: 0 0 10px #0000003f;
+    
+}
+
+header ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: Bold;
+    text-transform: uppercase;
+
+    
+}
+header h1 a {
+    text-decoration: none;
+    color: white;
+}
+section{
+    background-image: url("../assets/Images/bg/top-banner.png");
+    width:100%;
+    background-repeat: no-repeat;
+    height: 500px;
+    padding-bottom: 100px;
+    background-attachment: fixed;
+}
+.second_section{
+    width: 100%;
+    background-image: url("../assets/Images/banner images/dream-bg.png");
+    background-position: right;
+    background-attachment: scroll;
+}
+.third_section{
+    width: 100%;
+    background-image: url("../assets/Images/banner images/exp-bg.png");
+    background-position: left;
+    background-attachment: scroll;
+}
+.third_section h2 {
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.text_box{
+    background-color: white;
+    height: 80%;
+    padding: 2%;
+    box-shadow: 0px 0px 30px #272727;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.text_box h3 {
+    font-size: 35px;
+    text-transform: uppercase;
+    margin: 0;
+}
+.text_box p{
+    text-align: justify;
+}
+.text_box_1{
+    border-left:10px solid black;
+    border-image: linear-gradient(red, orange);
+    border-image-slice: 1;
+
+}
+.text_box_2{
+    border-left:10px solid black;
+    border-image: linear-gradient(blue, aqua);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+}
+.contact_form{
+    text-align: center;
+}
+.contact_form li{ 
+    display: inline-block;
+}
+.contact_form li a i{
+
+    
+}
+.social_icons li a i{
+    font-size: 70px;
+    padding: 0px 20px;
+    transition: 0.5s;
+}
+.fab:hover{
+    rotate: 360deg;
 }
